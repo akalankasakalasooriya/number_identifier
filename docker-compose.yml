@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  localhost:
+    build: ./APIserver
+    ports:
+      - 5000:5000
+  web:
+    build: ./numberpredictor
+    ports:
+      - 3000:3000

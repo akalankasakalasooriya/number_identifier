@@ -60,7 +60,7 @@ function Content() {
                 <div className="row mx-auto">
                     <div className="card mx-auto cardStyle">
                         <div className="card-body">
-                            <img className="card-img-top" id='submittedImage' src={logo} alt="Card image cap"></img>
+                            <img className="card-img-top" id='submittedImage' src={logo} alt="Card cap"></img>
                             <h5 className="card-title">Result</h5>
                             <h2 id="result">#</h2>
                         </div>

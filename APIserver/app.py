@@ -2,10 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 import tensorflow as tf
-from tensorflow.python.keras import layers,models
 import cv2 as cv2
 from flask_cors import CORS
 #
@@ -40,4 +37,4 @@ def number_finder():
 
 # main driver function
 if __name__ == '__main__':
-	app.run()
+	app.run(port=5000)
